@@ -1,0 +1,229 @@
+#nav{
+    background-image: url("https://i.picsum.photos/id/26/4209/2769.jpg?hmac=vcInmowFvPCyKGtV7Vfh7zWcA_Z0kStrPDW3ppP0iGI ");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#nav-bar{
+    overflow: hidden; 
+    padding:20px ; 
+    transition: 0.3s; 
+    position: fixed; 
+   width: 100%;
+    top: 0; 
+    z-index:99;
+    background-color:rgb(33, 31, 36);
+    color: white;
+    
+  }
+.sb{
+    color: gold;
+    padding:0;
+    background-color: transparent;
+}
+#link{
+    color: white;
+    padding: 20px;
+}
+#link:hover{
+    color: gold;
+}
+#header{
+    margin-top: 100px;
+}
+#btn{
+    background-color: gold;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+#btn:hover{
+    background-color: orange;
+}
+h4{
+    margin-top: 70px;
+}
+p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(102, 110, 110);
+}
+#logo{
+    font-size: 70px;
+    background-color: gold;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#portofolio{
+    background-color: rgb(218, 234, 236);
+    margin-top: 100px;
+}
+.over{
+    position: relative;
+    width: 100%;
+   
+    
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color:gold ;
+  }
+  #icon{
+      font-size: 70px;
+      border: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: gold;
+      color: white;
+  }
+  .over:hover .overlay{
+      opacity: 0.8;
+  }
+  #closebtn1{
+    border: none;
+    font-size: 60px;
+    color: rgb(218, 234, 236);
+    background-color: white;
+  }
+  #closebtn2{
+      background-color: gold;
+      padding: 20px;
+      color: white;
+      border: 1px solid gold;
+      border-radius: 5px;
+  }
+  #closebtn2:hover{
+      background-color: orange;
+  }
+   .imag{
+      width: 100%;
+      height: auto;
+  }
+  #text{
+      background-color: white;
+      height: 120px;
+      padding:30px ;
+   
+  }
+  #about{
+      margin-top: 50px;
+  }
+  #about-img{
+      border-radius: 50%;
+      border: 2px solid gold;
+      margin-top: 100px;
+  }
+  #about-btn{
+    border-radius: 50%;
+    border: 2px solid gold;
+    margin-top: 80px;
+    background-color: gold;
+    color: white;
+    padding: 60px;
+    font-size: 22px;
+  }
+  .text1{
+      margin-top: 100px;
+  }
+  .text2{
+      margin-top: 380px;
+  }
+  .text3{
+    margin-top: 400px;
+}
+.text4{
+    margin-top: 370px;
+}
+#team{
+    background-color:rgb(218, 234, 236) ;
+}
+#team-img{
+    border: 7px solid rgb(129, 168, 173);
+    border-radius: 50%;
+    width: 200px;
+    
+
+}
+#team-icon{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+#contact{
+    background-image: url("https://i.picsum.photos/id/115/1500/1000.jpg?hmac=PMXoKzYeiUr1yKbfihqGHtqnlsmR_OvIofWF0MxvQRQ ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+.form-control{
+    width: 80%;
+    margin-left: 20px;
+    padding: 30px;
+   
+}
+#message{
+    height: 265px;
+    text-align: top;
+}
+#contact-btn{
+    background-color: gold;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+#footer-icon{
+    border: 2px solid rgb(36, 35, 35);
+    background-color: rgb(36, 35, 35);
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    margin:0 10px;
+}
+#footer-icon:hover{
+    background-color: black;
+}
+.footer-a{
+    color: gold;
+    margin: 0 10px;
+}
+.footer-a:hover{
+    color: goldenrod;
+}
+
+@media screen and(max-width:768px){
+   #burger{
+       display: inline-block;
+       cursor: pointer;
+   }
+   
+}
+  
+  
